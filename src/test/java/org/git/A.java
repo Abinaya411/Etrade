@@ -2,11 +2,17 @@ package org.git;
 
 public class A {
 public static void main(String[] args) {
-		int a=10;
-		int b=10;
-		int c=a-b;
-	int d=a+b;
-	System.out.println(d);
+		
+		int b = 5;
+		if(b==5)
+		{
+			System.out.println("b is equal to 5");
+		}
+		else
+		{
+			System.out.println("a not equal to 5");
+		}
+
 
 	}
 
